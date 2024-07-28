@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import { Map as MapLibreMap, NavigationControl, Marker } from 'maplibre-gl';
 import MapLibreGlDirections, { LoadingIndicatorControl } from '@maplibre/maplibre-gl-directions';
 import 'maplibre-gl/dist/maplibre-gl.css';
-import Appcss from './App.css'
+// import Appcss from './App.css'
 
 const Map = ({ selectedPlace, directions }) => {
   const mapRef = useRef(null);
